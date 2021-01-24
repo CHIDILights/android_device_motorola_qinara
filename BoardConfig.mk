@@ -26,16 +26,16 @@
 # inherit from the proprietary version
 -include vendor/motorola/mb886/BoardConfigVendor.mk
 
-LOCAL_PATH := device/motorola/mb886
+LOCAL_PATH := device/motorola/qinara
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := mb886,qinara
+TARGET_OTA_ASSERT_DEVICE := qinara,mb886
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
 # Recovery
-TARGET_RECOVERY_DEVICE_DIRS := device/motorola/mb886
+TARGET_RECOVERY_DEVICE_DIRS := device/motorola/qinara
 
 # Storage
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1283719168
